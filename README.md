@@ -58,7 +58,8 @@ Retorna todos os jogos de uma lista.
 POST /{listId}/replacement
 ```
 Move o jogo para uma nova posição dentro da lista, passando um body:
-```{
+```
+{
 	"sourceIndex": 1,
     "destinationIndex": 4
 }
